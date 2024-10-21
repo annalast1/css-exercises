@@ -1,16 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;   
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
-  padding: 5px;
+  padding: 15px;
   display: flex;
   min-width: 800px;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
   color: tomato;
   background: white;
@@ -22,11 +26,11 @@ ul {
   margin: auto;
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 a {
-  font-size: 22px;
+  font-size: 18px;
   background: white;
   padding: 8px;
   text-decoration: none;
