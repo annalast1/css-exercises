@@ -7,7 +7,7 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
+  background: black;
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
 }
 
 .icon {
@@ -65,5 +69,28 @@ button.continue {
 button.cancel {
   background: white;
   border: 1px solid #ddd;
-  color: royalblue;
+  color: royalblue; 
+}
+
+.grey-box {
+  background-color: #aaa;
+  padding: 100px;
+}
+
+div {
+  display: inline-block;
+}
+.header {
+  margin: auto;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 8px;;
+}
+
+.text-box {
+  width: 80%;
 }
